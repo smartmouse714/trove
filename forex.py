@@ -8,9 +8,9 @@ except ImportError:
     from urllib2 import urlopen
 # 2. related third party imports
 from bs4 import BeautifulSoup, SoupStrainer
-from colorama import Fore, Back, Style
+from colorama import Style
 
-basket = ('AED', 'AUD', 'CAD', 'GBP', 'HKD', 'JPY', 'USD')
+basket = ('AED', 'AUD', 'CAD', 'GBP', 'HKD', 'JPY', 'NZD', 'USD')
 
 def report_rates():
     """Quote delayed exchange rates."""
